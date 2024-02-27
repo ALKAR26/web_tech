@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Sports Selection</title>
+</head>
+<body style="font-family: Arial, sans-serif;">
+
+<h2 style="text-align: center;">University Sports Selection</h2>
+<form action="/sports_selection" method="post" style="max-width: 400px; margin: 0 auto;">
+    <label for="name" style="display: block;">Name:</label>
+    <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+    <label for="password" style="display: block;">Password:</label>
+    <input type="password" id="password" name="password" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+    <label for="address" style="display: block;">Address:</label>
+    <textarea id="address" name="address" rows="3" style="width: 100%; padding: 8px; margin-bottom: 10px;"></textarea>
+
+    <label for="game" style="display: block;">Select Game:</label>
+    <select id="game" name="game" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+        <option value="" disabled selected>Select Game</option>
+        <option value="Football">Football</option>
+        <option value="Basketball">Basketball</option>
+        <option value="Tennis">Tennis</option>
+        <option value="Football">F1</option>
+        <option value="Football">Criket</option>
+        <option value="Football">Badminton</option>
+        <option value="Football">IndieCar</option>
+        <option value="Football">Nascar</option>
+        <option value="Football">MotoGP</option>
+        <!-- Add more options as needed -->
+    </select>
+
+    <label style="display: block;">Gender:</label>
+    <label for="male" style="margin-right: 10px;"><input type="radio" id="male" name="gender" value="Male" required> Male</label>
+    <label for="female"><input type="radio" id="female" name="gender" value="Female" required> Female</label>
+    <br><br>
+
+    <label for="age" style="display: block;">Age:</label>
+    <input type="number" id="age" name="age" min="1" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+    <input type="submit" value="Submit" style="background-color: #4caf50; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer;">
+
+</form>
+
+</body>
+</html>
