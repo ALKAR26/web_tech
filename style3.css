@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: gold;
+    color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+    background-color: #218838;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.feature {
+    flex: 1;
+    padding: 6%;
+    background-color: rgb(179, 245, 211);
+    border-radius: 10px;
+    box-shadow: 12px 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 15px;
+    max-width: 300px;
+}
+
+.feature img {
+
+    border-radius: 0%; /* Makes the image round */
+    margin-bottom: 40px; /* Adds space between image and text */
+}
+
+.feature h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: black;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+}
+
+footer {
+    background-color: blueviolet;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    width: 100%;
+}
